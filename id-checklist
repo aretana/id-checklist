@@ -10,7 +10,7 @@ Guidelines
 A.
 
 Checklist
-1. Introduction
+1. General Considerations about Document Quality
 2. Form Nits
   2.1.  Formatting
   2.2.  Required sections - all I-Ds
@@ -353,10 +353,9 @@ DOCUMENT QUALITY CHECKLIST
 
 1. General Considerations about Document Quality
 
-All Internet Drafts (I-Ds) that are offered to an Area Director (AD) or the
-Internet Engineering Steering Group (IESG) with a request for publication as
-an RFC must conform to the following requirements or they will be returned
-to the author(s) or editor(s) for revision.
+All Internet Drafts (I-Ds) that are offered to an Area Director (AD) with a
+request for publication as an RFC must conform to the following requirements or
+they will be returned to the author(s) or editor(s) for revision.
 
 The Working Group (WG) Chairs are responsible for having this list checked
 before submission to an Area Director to begin the review and publication
@@ -381,7 +380,7 @@ Responsibility for all checking is with the authors in the case of an
 individual submission.
 
 This document only talks about "finished" Internet-Drafts, that is, those I-Ds
-for which the IESG gets a request for publication.  However, it is strongly
+for which an AD gets a request for publication.  However, it is strongly
 recommended to follow these guidelines for documents that go to WG Last
 Call as well.
 
@@ -389,9 +388,9 @@ Guidelines for all Internet-Drafts are in Guidelines to Authors of
 Internet-Drafts, and are not repeated here.
 
 As a suggestion for productivity improvement, it is strongly recommended to
-use XML2RFC v3 [RFC 7991] (Hoffman, P., "The xml2rfc Version 3 Vocabulary,"
+use xml2rfc v3 [RFC 7991] (Hoffman, P., "The xml2rfc Version 3 Vocabulary,"
 December 2016) as source files for generating an Internet-Draft.  There is
-even an online xml2rfc tool to generate the Internet-Draft .txt files.
+even an online xml2rfc tool to generate the Internet-Draft .txt file.
 That tool automatically takes care of most of the formatting, administrative
 and bureaucratic rules.
 
