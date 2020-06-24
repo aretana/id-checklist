@@ -390,9 +390,9 @@ Internet-Drafts, and are not repeated here.
 As a suggestion for productivity improvement, it is strongly recommended to
 use xml2rfc v3 [RFC 7991] (Hoffman, P., "The xml2rfc Version 3 Vocabulary,"
 December 2016) as source files for generating an Internet-Draft.  There is
-even an online xml2rfc tool to generate the Internet-Draft .txt file.
-That tool automatically takes care of most of the formatting, administrative
-and bureaucratic rules.
+even an online xml2rfc tool to generate the Internet-Draft .txt file [XML2RFC]
+which takes care of most of the formatting, administrative and bureaucratic
+rules.
 
 2. Form Nits
 
@@ -403,7 +403,7 @@ And, if there are only a few, then they will do so.  However, if many errors
 exist, the document will be returned to the author(s), editor(s), or the
 WG for fixes.  In any event, please realize that not following the formatting
 rules will most probably delay publication and does consume time that can
-be spend on other work.
+be spent on other work.
 
 See the RFC Style Guide [RFC 7322] (Flanagan, H., and Ginoza, S., "RFC Style
 Guide", September 2014) for further rules.  A checklist of formatting problems
@@ -989,3 +989,5 @@ for more information on the recommended way of handling comparisons.
 [TLP]     http://trustee.ietf.org/docs/IETF-Trust-License-Policy.pdf
 
 [TRACK]   https://datatracker.ietf.org/idtracker
+
+[XML2RFC] https://xml2rfc.tools.ietf.org/
