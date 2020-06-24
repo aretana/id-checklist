@@ -341,7 +341,7 @@ the RFC Editor has collected several pointers on their web page
 (<http://www.rfc-editor.org/formatting.html>).
 
 Henrik Levkowetz has written an excellent tool that checks for many common
-issues: <http://tools.ietf.org/tools/idnits/>.
+issues [IDNITS].
 
 The I-D Checklist <http://www.ietf.org/id-info/checklist.html> is a good
 reference when submitting a document to the IESG for publication as an RFC.
@@ -362,8 +362,8 @@ before submission to an Area Director to begin the review and publication
 process.
 
 A handy tool (awk script) to check most of the formatting nits (as in
-Sections 2.1 and 2.2 below) is available at
-http://tools.ietf.org/tools/idnits/, courtesy of Henrik Levkowetz.
+Sections 2.1 and 2.2 below) is available [IDNITS], courtesy of Henrik
+Levkowetz.
 
 Another set of handy tools is available at the IETF TOOLS pages, which
 can be found at https://tools.ietf.org/.
@@ -979,6 +979,8 @@ for more information on the recommended way of handling comparisons.
 [RFC8264] Saint-Andre, P., and M. Blanchet, "PRECIS Framework: Preparation,
           Enforcement, and Comparison of Internationalized Strings in
           Application Protocols", October 2017 (TXT, XML).
+
+[IDNITS]  http://tools.ietf.org/tools/idnits/
 
 [IDST]    https://datatracker.ietf.org/submit
 
