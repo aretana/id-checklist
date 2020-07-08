@@ -354,23 +354,16 @@ All Internet Drafts (I-Ds) that are offered to an Area Director (AD) with a
 request for publication as an RFC must conform to the following requirements or
 they will be returned to the author(s) or editor(s) for revision.
 
+A set of handy tools is available at the IETF TOOLS pages [TOOLS], including
+one [IDNITS], courtesy of Henrik Levkowetz, that can be used to check for most
+of the formatting requirements in this document.
+
+Checking for content related issues may need a human eye.
+
 The Working Group (WG) Chairs are responsible for having this list checked
 before submission to an Area Director to begin the review and publication
-process.
-
-A handy tool (awk script) to check most of the formatting nits (as in
-Sections 2.1 and 2.2 below) is available [IDNITS], courtesy of Henrik
-Levkowetz.
-
-Another set of handy tools is available at the IETF TOOLS pages [TOOLS].
-
-Checking for content related issues (as in Sections 2.3, 3, and 4 below)
-needs a human eye.
-
-All content issues have to be checked early in the development of documents,
-being technically integral. The WG Chairs are responsible for this too.
-The ADs will not accept the document and so will not put it on the IESG
-agenda if this check has not been done.
+process.  All content issues should be checked early in the development of
+documents, being technically integral.
 
 Responsibility for all checking is with the authors in the case of an
 individual submission.
