@@ -393,31 +393,30 @@ WG for fixes.  In any event, please realize that not following the formatting
 rules will most probably delay publication and does consume time that can
 be spent on other work.
 
-See the RFC Style Guide [RFCED] for further rules.  A checklist of formatting
-problems rules that often get neglected is provided here:
+See the RFC Style Guide [RFCED] for further rules.  A checklist of
+often-neglected formatting rules for plain-text documents is provided here:
 
-* No text beyond the 72nd column of a line. This is especially important
-  for diagrams and code, which the RFC Editor may not be able to trivially
-  reformat to fall within the margins.
+* No text beyond the 72nd column of a line [RFC7994]. This is especially
+  important for diagrams and code.  See also [RFC8792] for strategies for
+  handling long lines.
 
-* Must be ragged right
+* Do not fill the text with extra spaces to provide a straight right margin.
 
-* No hyphenation for line breaks. However, hyphenated words (e.g.,
-  "Internet-Draft") may be split at the hyphen across successive lines.
+* No hyphenation for line breaks.
 
-* No footnotes
+* No footnotes. If such notes are necessary, put them at the end of a section,
+  or at the end of the document.
 
-* ASCII-only; no control characters (other than CR, NL and FF).
-  [MSK: Is this still true?]
+* Plain-text documents may only display ASCII characters.  Other renderings of
+  the document allow the use of non-ASCII characters [RFC7997].
 
-* Do not number the "Status of Memo" or "Abstract" sections
+* Do not number sections outside the Body of the Memo [RFC7322].
 
-* Do not add a numbered reference in the I-D boilerplate to RFC 5378 or RFC
-  5379 (or to RFC 2026, RFC 3667, RFC 3668, RFC 3978, or RFC 3979 for older
-  documents). If you do, it makes it harder for the RFC Editor to process the
-  document when they strip off the I-D boilerplate.
+* Do not add references to the documents mentioned in the I-D boilerplate. If
+  you do, it makes it harder for the RFC Editor to process the document when
+  they strip off the I-D boilerplate.
 
-* Reasonably well formatted for readibility and clarity
+* Reasonably well formatted for readability and clarity.
 
 2.2.  Required Sections - All I-Ds
 
@@ -931,6 +930,14 @@ information on the recommended way of handling comparisons.
           DOI 10.17487/RFC7991, December 2016,
           <https://www.rfc-editor.org/info/rfc7991>.
 
+[RFC7994] Flanagan, H., "Requirements for Plain-Text RFCs", RFC 7994,
+          DOI 10.17487/RFC7994, December 2016,
+          <https://www.rfc-editor.org/info/rfc7994>.
+
+[RFC7997] Flanagan, H., Ed., "The Use of Non-ASCII Characters in RFCs",
+          RFC 7997, DOI 10.17487/RFC7997, December 2016,
+          <https://www.rfc-editor.org/info/rfc7997>.
+
 [RFC8126] Cotton, M., Leiba, B., and T. Narten, "Guidelines for Writing an
           IANA Considerations Section in RFCs", BCP 26, RFC 8126,
           DOI 10.17487/RFC8126, June 2017,
@@ -948,6 +955,11 @@ information on the recommended way of handling comparisons.
           Enforcement, and Comparison of Internationalized Strings in
           Application Protocols", RFC 8264, DOI 10.17487/RFC8264, October
           2017, <https://www.rfc-editor.org/info/rfc8264>.
+
+[RFC8792] Watsen, K., Auerswald, E., Farrel, A., and Q. Wu, "Handling Long
+          Lines in Content of Internet-Drafts and RFCs", RFC 8792,
+          DOI 10.17487/RFC8792, June 2020,
+          <https://www.rfc-editor.org/info/rfc8792>.
 
 [FORMAL]  https://www.ietf.org/about/groups/iesg/statements/formal-languages-use/
 
